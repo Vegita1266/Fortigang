@@ -1,5 +1,5 @@
 # Fortigang
-Ez a projekt egy három switchből, egy routerből és opcionálisan több számítógépből álló hálózatot ábrázol. A feladat célja VLAN-ok beállítása és konfigurálása, valamint az inter-VLAN forgalom biztosítása.
+Ez a projekt egy három switchből, két routerből és opcionálisan több számítógépből álló hálózatot ábrázol. A feladat célja VLAN-ok beállítása és konfigurálása, valamint az inter-VLAN forgalom biztosítása.
 
 Feladatok:
 VLAN-ok létrehozása három switch-en.
@@ -9,6 +9,12 @@ Lépések:
 Switch konfigurálása: VLAN-ok létrehozása és portok hozzárendelése.
 Router konfigurálása: Subinterface-ek létrehozása a VLAN-ok számára.
 PC-k beállítása: IP címek hozzárendelése a megfelelő VLAN-okhoz.
-Tesztelés:
-Ellenőrizni kell, hogy a VLAN-ok közötti kommunikáció működik, és hogy a PC-k elérhetik a router IP-jét.
-Ez a projekt segít megérteni a VLAN-ok kezelését és az inter-VLAN routingot.
+
+Switch jelszók:
+Secret: king
+line vty 0 15: fortnite
+console 0: fortnite
+
+SSH
+username: kriszh
+jelszó: advice
