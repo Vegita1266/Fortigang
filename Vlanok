@@ -1,0 +1,6 @@
+Felhasználók (VLAN 10): A /24-es alhálózat nagyobb méretet biztosít, mivel itt több eszköz csatlakozik, például munkaállomások, laptopok.
+Szerverek (VLAN 20): Hasonlóan nagy méretű, mert több szerverkapcsolatot kell kiszolgálni.
+Menedzsment (VLAN 30): A /29-es hálózat kisebb, mivel kevesebb menedzsment eszköz (pl. switchek, routerek) igényel IP-címet.
+Vendégek (VLAN 40): Szintén /29-es hálózat, mivel várhatóan kevés vendégeszköz kapcsolódik.
+IoT (VLAN 50): A /28-as méret megfelelő, mert több IoT-eszközt feltételez, mint a menedzsment vagy vendég VLAN-okban.
+Speciális eszközök (VLAN 60): Szintén /28-as, mivel egyedi hardverek vagy rendszerek miatt nagyobb tartományra lehet szükség.
